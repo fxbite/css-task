@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors Task - Problem 04</title>
+    <style>
+        .item {
+            color: red
+        }
+
+        #list-1 {
+            list-style-type: none;
+        }
+
+        .line {
+            border-bottom: 1px solid grey;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>This is a heading</h1>
+    <p class="item">This paragraph comes after the heading.</p>
+    <p>This is the second paragraph.</p>
+
+    <h1>Another heading</h1>
+    <p class="item">This paragraph comes after the heading.</p>
+    
+    <ul id="list-1">
+        <li class="line">One</li>
+        <li class="line">
+            Two
+            <ul>
+                <li>2.1</li>
+                <li>2.2</li>
+            </ul>
+        </li>
+        <li class="line">Three</li>
+    </ul>
+</body>
+</html>
